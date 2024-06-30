@@ -106,7 +106,8 @@ span {
   font-size: 1.5rem; /* Taille du texte */
   display: block; /* Pour que le texte apparaisse sur une ligne séparée */
   margin-bottom: 10px; /* Espacement entre le texte et l'icône Instagram */
-  font-family: Membra;
+  font-family: Membra, serif;
+  text-decoration: none;
 }
 
 .instagram-logo {
@@ -144,6 +145,13 @@ span {
   background-repeat: no-repeat;
   pointer-events: none;
   z-index: 1000;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: #cccccc;
 }
 
 

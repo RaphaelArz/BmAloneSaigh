@@ -273,3 +273,8 @@ form textarea {
 .hidden{
     display: none;
 }
+.footText{
+    color: #d3d3d3;
+    font-family: Calibri, sans-serif;
+    font-size: 1vw;
+}
