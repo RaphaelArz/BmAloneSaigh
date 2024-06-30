@@ -3,8 +3,8 @@ document.getElementById('addEventButton').addEventListener('click', function(eve
     const eventTitle = 'Bar-Mitsvah Alone';
     const eventLocation = '74 Av. Paul Valéry, 95200 Sarcelles';
     const eventDetails = 'Mise des téphilines d\'Alone';
-    const eventStart = '20240808T083000Z';
-    const eventEnd = '20240408T113000Z';
+    const eventStart = '20240808T093000Z';
+    const eventEnd = '20240408T093000Z';
 
     // Détection du système d'exploitation
     const userAgent = window.navigator.userAgent;
