@@ -13,7 +13,7 @@ document.getElementById('addEventButton').addEventListener('click', function(eve
     if (/iPhone|iPad|iPod/i.test(userAgent)) {
         // Lien pour Apple Calendar
         const startDate = '20240808T083000';
-        const endDate = '20240808T113000';
+        const endDate = '20240808T083000';
         const icsContent = [
             'BEGIN:VCALENDAR',
             'VERSION:2.0',
