@@ -3,8 +3,8 @@ document.getElementById('addEventButton').addEventListener('click', function(eve
     const eventTitle = 'Bar-Mitsvah Mickael';
     const eventLocation = '14 Rue des Rouges Gorges, Saint-Brice sous-foret';
     const eventDetails = 'Mise des téphilines de Gabriel.';
-    const eventStart = '20250323T073000Z';
-    const eventEnd = '20250323T103000Z';
+    const eventStart = '20240808T083000Z';
+    const eventEnd = '20240408T113000Z';
 
     // Détection du système d'exploitation
     const userAgent = window.navigator.userAgent;
@@ -12,8 +12,8 @@ document.getElementById('addEventButton').addEventListener('click', function(eve
 
     if (/iPhone|iPad|iPod/i.test(userAgent)) {
         // Lien pour Apple Calendar
-        const startDate = '20250323T073000';
-        const endDate = '20250323T103000';
+        const startDate = '20240808T083000';
+        const endDate = '20240808T113000';
         const icsContent = [
             'BEGIN:VCALENDAR',
             'VERSION:2.0',
