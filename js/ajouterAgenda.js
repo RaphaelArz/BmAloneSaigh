@@ -1,8 +1,8 @@
 document.getElementById('addEventButton').addEventListener('click', function(event) {
     event.preventDefault();
-    const eventTitle = 'Bar-Mitsvah Mickael';
-    const eventLocation = '14 Rue des Rouges Gorges, Saint-Brice sous-foret';
-    const eventDetails = 'Mise des téphilines de Gabriel.';
+    const eventTitle = 'Bar-Mitsvah Alone';
+    const eventLocation = '74 Av. Paul Valéry, 95200 Sarcelles';
+    const eventDetails = 'Mise des téphilines d\'Alone';
     const eventStart = '20240808T083000Z';
     const eventEnd = '20240408T113000Z';
 
