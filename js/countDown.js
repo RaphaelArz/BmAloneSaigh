@@ -1,5 +1,5 @@
 // Date du mariage (année, mois - 1, jour)
-var weddingDate = new Date(2024, 7, 8); // Mois est 0-indexé (0 = janvier, 1 = février, etc.)
+var weddingDate = new Date(2024, 7, 29); // Mois est 0-indexé (0 = janvier, 1 = février, etc.)
 
 // Fonction pour mettre à jour le compteur
 function updateCountdown() {
